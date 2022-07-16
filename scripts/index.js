@@ -35,7 +35,7 @@ const arr1 = ['t', 'p', 'i', 'r', 'c', 's', 'a', 'v', 'a', 'j', ' ', 'e']
 const arr2 = ['v', 'o', 'l', ' ', 'I']
 
 function concatArr() {
-  // console.log(arr1.concat(arr2).reverse().join(''))
+  console.log(arr1.concat(arr2).reverse().join(''))
 }
 
 // Copy the code for the splice and slice methods below and print the results to the console.
