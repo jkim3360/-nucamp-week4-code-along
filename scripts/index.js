@@ -34,9 +34,7 @@ function practiceArrMethods() {}
 const arr1 = ['t', 'p', 'i', 'r', 'c', 's', 'a', 'v', 'a', 'j', ' ', 'e']
 const arr2 = ['v', 'o', 'l', ' ', 'I']
 
-function concatArr() {
-  console.log(arr1.concat(arr2).reverse().join(''))
-}
+function concatArr() {}
 
 // Copy the code for the splice and slice methods below and print the results to the console.
 
@@ -55,22 +53,11 @@ function concatArr() {
 
 /* Add a button to the document and remove any node when it is clicked */
 
-// document.querySelector('button').addEventListener('click', ()=>{
-//   document.getElementById('heading').remove()
-// })
-
 /* --------------------- SET TIMEOUT AND SET INTERVAL --------------------- */
 
 // Log any string to the console using setTimeout.
 
 // Log any data type to the console every 2 seconds using setInterval.
 
-const myInterval = setInterval(() => {
-  console.log('This is a data type.')
-}, 2000)
-
 // Add another button to the document and clear the interval on click.
 
-const stop = () => {
-  clearInterval(myInterval)
-}
